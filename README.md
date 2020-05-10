@@ -2,6 +2,8 @@
 
 Simulating Web Monetization API with Coil and vite ⚡
 
+![demo](https://i.imgur.com/M2vaAfI.gif)
+
 ## Installing
 
 1. Install dependencies
