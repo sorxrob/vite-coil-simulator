@@ -7,13 +7,25 @@
         <div class="col s12" style="text-align: center;">
           <Loader v-if="isLoading" />
           <h1 v-else-if="isMonetized">
-            I've made
+            Ad removed! I've made
             <br />
             {{ totalFixed }} {{ assetCode }}
           </h1>
           <h1 v-else>
-            Not receiving any.
-            <a href="#" @click="showHelp">Help?</a>
+            <div
+              class="tenor-gif-embed"
+              data-postid="16797420"
+              data-share-method="host"
+              data-width="100%"
+              data-aspect-ratio="1.7535211267605635"
+            >
+              <a
+                href="https://tenor.com/view/coffin-meme-coffin-dance-meme-funny-lol-gif-16797420"
+              >Coffin Meme Coffin Dance GIF</a> from
+              <a href="https://tenor.com/search/coffinmeme-gifs">Coffinmeme GIFs</a>
+            </div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+            <a href="#" @click="showHelp">Remove this Ad?</a>
           </h1>
         </div>
       </div>
