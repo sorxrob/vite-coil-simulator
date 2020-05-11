@@ -3,13 +3,23 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">#gftwhackathon</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">GitHub</a></li>
-        <li><a href="https://robsoriano.com">Developer</a></li>
+        <li>
+          <a
+            target="_BLANK"
+            href="https://github.com/sorxrob/vite-coil-simulator"
+            >GitHub</a
+          >
+        </li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">GitHub</a></li>
-        <li><a href="https://robsoriano.com">Developer</a></li>
+        <li>
+          <a
+            target="_BLANK"
+            href="https://github.com/sorxrob/vite-coil-simulator"
+            >GitHub</a
+          >
+        </li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"
         ><i class="material-icons">menu</i></a
