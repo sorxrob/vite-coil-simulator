@@ -6,18 +6,15 @@
       <div class="row">
         <div class="col s12" style="text-align: center;">
           <Loader v-if="isLoading" />
-          <div v-else>
-            <h1 v-if="isMonetized">
-              I've made
-              <br />
-              {{ totalFixed }} {{ assetCode }}
-            </h1>
-            <h1 v-else>
-              Not receiving any.
-              <a href="#" @click="showHelp">Help?</a>
-            </h1>
-            <p></p>
-          </div>
+          <h1 v-else-if="isMonetized">
+            I've made
+            <br />
+            {{ totalFixed }} {{ assetCode }}
+          </h1>
+          <h1 v-else>
+            Not receiving any.
+            <a href="#" @click="showHelp">Help?</a>
+          </h1>
         </div>
       </div>
     </div>
