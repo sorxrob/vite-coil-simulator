@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import useWebMonetization from "./use-web-monetization";
+import { useWebMonetization } from "./use-web-monetization";
 import Nav from "./components/Nav.vue";
 import Banner from "./components/Banner.vue";
 import Loader from "./components/Loader.vue";

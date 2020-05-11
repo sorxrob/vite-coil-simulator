@@ -1,6 +1,6 @@
 import { ref, onMounted } from "vue";
 
-function useWebMonetization() {
+export const useWebMonetization = () => {
   const isMonetized = ref(false);
   const isLoading = ref(true);
 
@@ -35,6 +35,4 @@ function useWebMonetization() {
     isMonetized,
     isLoading,
   };
-}
-
-export default useWebMonetization;
+};
